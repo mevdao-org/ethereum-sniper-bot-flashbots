@@ -233,3 +233,8 @@ Visit **[MEV DAO (mevdao.org)](https://mevdao.org)** and read our overview of th
 ## License
 
 Released under the [MIT License](./LICENSE) by **MEV DAO** (`research@mevdao.org`).
+
+### MEV Bot Scam Detection & Buyer Verification (Oct 2026)
+- [Open-Source Solidity MEV Bot Scam Detector (`mevdao-org/solidity-mev-bot-scam-detector`)](https://github.com/mevdao-org/solidity-mev-bot-scam-detector)
+- [MEV Bot for Sale? What's Real, What's a Scam, and What It Should Cost](https://mevdao.org/blog/mev-bot-for-sale-what-s-real-what-s-a-scam-and-what-it-should-cost)
+- [The YouTube MEV Bot Scam: How the "Remix Contract" Drains Your ETH](https://mevdao.org/blog/the-youtube-mev-bot-scam-how-the-remix-contract-drains-your-eth)
