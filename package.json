@@ -1,0 +1,41 @@
+{
+  "name": "ethereum-sniper-bot-flashbots",
+  "version": "1.2.0",
+  "description": "Open-source Ethereum Uniswap V2/V3 same-block Flashbots sniper bot with Anvil honeypot simulation and multi-builder bundle fan-out by MEV DAO (https://mevdao.org)",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "simulate": "tsx src/simulator.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ethereum-sniper-bot",
+    "flashbots-sniper-bot",
+    "uniswap-v2-sniper-bot",
+    "mempool-sniper-bot",
+    "same-block-sniping",
+    "flashbots",
+    "mev-bot",
+    "uniswap",
+    "viem",
+    "ethereum"
+  ],
+  "homepage": "https://mevdao.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mevdao-org/ethereum-sniper-bot-flashbots.git"
+  },
+  "author": "MEV DAO <research@mevdao.org> (https://mevdao.org)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
